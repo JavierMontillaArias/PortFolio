@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Montilla - Desarrollador Backend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon">JM</span>
+                <span class="brand-text">Javier Montilla</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#education" class="nav-link">Formación</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Desarrollador Backend</div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Javier Montilla Arias</span>
+                </h1>
+                <p class="hero-subtitle">Estudiante de DAM apasionado por el Backend, sistemas y soluciones escalables</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">Java</span>
+                        <span class="stat-label">Spring Boot</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Python</span>
+                        <span class="stat-label">FastAPI/Django</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">SQL</span>
+                        <span class="stat-label">MySQL/JPA</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contact" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <p class="about-text">
+                        Soy estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM) y un desarrollador con una 
+                        pasión clara por el Backend y la lógica de servidor. Me encantan los sistemas, me divierten los 
+                        problemas complejos, y busco la eficiencia en el código.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <p class="about-text">
+                        Mi base académica en Java y SQL la he catapultado con un gran esfuerzo autodidacta en frameworks 
+                        industriales (Spring Boot) y en áreas de alto rigor analítico. Busco unas prácticas donde pueda 
+                        aplicar este conocimiento sólido y contribuir al desarrollo de soluciones robustas y escalables.
+                    </p>
+                </div>
+            </div>
+            <div class="personal-info">
+                <div class="info-item">
+                    <div class="info-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <span>Málaga Capital, Málaga</span>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <span class="info-text">javiermontillaarias@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <span>681 307 748</span>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <span>B2 de inglés · Carnet B · Vehículo propio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">☕</div>
+                    <h3>Backend Java</h3>
+                    <p>POO, Spring Boot, Spring Security, Spring Data JPA</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Backend Python</h3>
+                    <p>FastAPI, Django, Flask, Machine Learning</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Bases de Datos</h3>
+                    <p>MySQL, SQL, Modelado de datos, JPA</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐧</div>
+                    <h3>Sistemas</h3>
+                    <p>Linux/Ubuntu, Windows Server, Terminal</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 82%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Móvil</h3>
+                    <p>Kotlin, Android Development</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Formación</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-badge">🎓</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                        <p class="timeline-location">Digitech, Málaga</p>
+                        <p class="timeline-period">2024 - 2026</p>
+                        <p class="timeline-desc">Ciclo Formativo de Grado Superior</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-badge">🏫</div>
+                    <div class="timeline-content">
+                        <h3>Doble Grado Ingeniería Eléctrica + Mecánica</h3>
+                        <p class="timeline-location">UMA, Málaga</p>
+                        <p class="timeline-period">2018 - 2024</p>
+                        <p class="timeline-desc">Estudios Universitarios (Inacabada)</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="subsection-title">Formación Complementaria</h3>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <h4>Zero To Mastery (ZTM)</h4>
+                    <ul>
+                        <li>Complete A.I., Machine Learning and Data Science</li>
+                        <li>Complete Python Developer in 2025</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <h4>Platzi - Backend Java</h4>
+                    <ul>
+                        <li>Java Spring Boot & Spring Security</li>
+                        <li>Java Spring Data JPA</li>
+                        <li>SQL y Bases de Datos</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <h4>Platzi - Backend Python</h4>
+                    <ul>
+                        <li>FastAPI, Flask, Django</li>
+                        <li>Django Rest Framework</li>
+                        <li>Despliegue en la Nube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Scroll Infinito con Carga Asíncrona</h3>
+                        <span class="project-tag">JavaScript</span>
+                    </div>
+                    <p class="project-description">
+                        Implementación de scroll infinito con JavaScript puro que realiza llamadas asíncronas a APIs 
+                        externas (Unsplash/Pexels) para cargar imágenes dinámicamente. Demuestra manejo de eventos 
+                        del DOM y comunicación con APIs de terceros.
+                    </p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>Fetch API</span>
+                        <span>DOM Manipulation</span>
+                    </div>
+                    <a href="https://github.com/JavierMontillaArias/JavaScript/tree/main/Infinite-Scroll" 
+                       target="_blank" class="project-link">Ver en GitHub →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>QuoteVerse - Generador de Citas</h3>
+                        <span class="project-tag">JavaScript</span>
+                    </div>
+                    <p class="project-description">
+                        Aplicación web interactiva que muestra citas inspiradoras aleatorias mediante peticiones 
+                        AJAX. Incluye funcionalidad para compartir citas directamente en Twitter con URLs de 
+                        intención de tweet personalizadas.
+                    </p>
+                    <div class="project-tech">
+                        <span>AJAX</span>
+                        <span>REST API</span>
+                        <span>DOM Events</span>
+                    </div>
+                    <a href="https://github.com/JavierMontillaArias/JavaScript/tree/main/Quote-Generator" 
+                       target="_blank" class="project-link">Ver en GitHub →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Predicción de Enfermedades Cardíacas</h3>
+                        <span class="project-tag">Machine Learning</span>
+                    </div>
+                    <p class="project-description">
+                        Modelo de ML para predecir enfermedades cardíacas basado en atributos médicos usando el 
+                        dataset de Cleveland (UCI). Comparación de múltiples algoritmos (Logistic Regression, KNN, 
+                        Random Forest) alcanzando 95% de precisión.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>Data Science</span>
+                    </div>
+                    <a href="https://github.com/JavierMontillaArias/Machine-Learning/tree/main/Heart%20Disease%20Project" 
+                       target="_blank" class="project-link">Ver en GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Buscas un desarrollador Backend para prácticas?</h3>
+                    <p>Estoy disponible para oportunidades de prácticas donde pueda aplicar mis conocimientos en 
+                    desarrollo backend, trabajar con sistemas robustos y seguir aprendiendo de profesionales experimentados.</p>
+                    <div class="contact-methods">
+                        <a href="mailto:javiermontillaarias@gmail.com" class="contact-method">
+                            <span class="method-icon">📧</span>
+                            <span>javiermontillaarias@gmail.com</span>
+                        </a>
+                        <a href="tel:681307748" class="contact-method">
+                            <span class="method-icon">📱</span>
+                            <span>681 307 748</span>
+                        </a>
+                        <a href="#" class="contact-method" id="linkedinLink">
+                            <span class="method-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/JavierMontillaArias" target="_blank" class="contact-method">
+                            <span class="method-icon">💻</span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Javier Montilla Arias. Desarrollador Backend | DAM Student</p>
+            <p class="footer-subtext">Málaga, España</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
