@@ -1,4 +1,3 @@
-/* Variables CSS */
 :root {
     --primary: #0ecb81;
     --primary-dark: #0ba66a;
@@ -669,7 +668,6 @@ body {
 }
 
 .project-featured {
-    grid-column: 1 / -1;
     background: linear-gradient(135deg, rgba(14, 203, 129, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
     border: 2px solid var(--primary);
     position: relative;
@@ -691,8 +689,19 @@ body {
 }
 
 .project-featured:hover {
-    transform: translateY(-8px) scale(1.01);
+    transform: translateY(-8px) scale(1.02);
     box-shadow: 0 12px 40px rgba(14, 203, 129, 0.3);
+}
+
+/* Hacer que los dos proyectos destacados ocupen todo el ancho en pantallas grandes */
+@media (min-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .project-featured {
+        grid-column: span 1;
+    }
 }
 
 .project-header {
