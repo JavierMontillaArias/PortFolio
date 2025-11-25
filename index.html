@@ -17,7 +17,7 @@
                         <polyline points="8 6 2 12 8 18"></polyline>
                     </svg>
                 </span>
-                <span class="brand-text">Javier Montilla Arias</span>
+                <span class="brand-text">Javier Montilla</span>
             </div>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#hero" class="nav-link active">Inicio</a></li>
@@ -151,34 +151,63 @@
             <div class="skills-container">
                 <div class="skill-category">
                     <h3 class="category-title">Backend & Frameworks</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-icon-box">
-                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                    <div class="skill-items-grid">
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
                                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
                                 </svg>
                             </div>
-                            <div class="skill-info">
-                                <h4>Java & Spring</h4>
-                                <p>Spring Boot, Spring Security, Spring Data JPA</p>
-                                <div class="skill-level">
-                                    <div class="level-bar" style="width: 90%"></div>
-                                </div>
+                            <div class="skill-badge-content">
+                                <h4>Java</h4>
+                                <p>POO, Collections, Streams</p>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <div class="skill-icon-box">
-                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+                                </svg>
+                            </div>
+                            <div class="skill-badge-content">
+                                <h4>Spring Boot</h4>
+                                <p>Spring Data JPA, Security</p>
+                            </div>
+                        </div>
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
                                     <path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"/>
                                     <path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"/>
                                 </svg>
                             </div>
-                            <div class="skill-info">
-                                <h4>Python Backend</h4>
-                                <p>FastAPI, Machine Learning</p>
-                                <div class="skill-level">
-                                    <div class="level-bar" style="width: 85%"></div>
-                                </div>
+                            <div class="skill-badge-content">
+                                <h4>Python</h4>
+                                <p>OOP, Type Hints, Async</p>
+                            </div>
+                        </div>
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                                </svg>
+                            </div>
+                            <div class="skill-badge-content">
+                                <h4>FastAPI</h4>
+                                <p>SQLModel, Pydantic, Async</p>
+                            </div>
+                        </div>
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                    <path d="M3 9h18M9 21V9"/>
+                                </svg>
+                            </div>
+                            <div class="skill-badge-content">
+                                <h4>Django</h4>
+                                <p>ORM, REST Framework</p>
                             </div>
                         </div>
                     </div>
@@ -186,73 +215,118 @@
 
                 <div class="skill-category">
                     <h3 class="category-title">Bases de Datos & Sistemas</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-icon-box">
-                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <div class="skill-items-grid">
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
                                     <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
                                     <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
                                 </svg>
                             </div>
-                            <div class="skill-info">
-                                <h4>SQL & MySQL</h4>
-                                <p>Modelado de datos, JPA, consultas complejas</p>
-                                <div class="skill-level">
-                                    <div class="level-bar" style="width: 88%"></div>
-                                </div>
+                            <div class="skill-badge-content">
+                                <h4>MySQL</h4>
+                                <p>Queries complejas, Optimización</p>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <div class="skill-icon-box">
-                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 7V4h16v3M9 20h6M12 4v16"/>
+                                </svg>
+                            </div>
+                            <div class="skill-badge-content">
+                                <h4>SQL</h4>
+                                <p>DDL, DML, Joins, Índices</p>
+                            </div>
+                        </div>
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                                     <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                                 </svg>
                             </div>
-                            <div class="skill-info">
-                                <h4>Linux & Sistemas</h4>
-                                <p>Ubuntu, administración de servidores, terminal</p>
-                                <div class="skill-level">
-                                    <div class="level-bar" style="width: 82%"></div>
-                                </div>
+                            <div class="skill-badge-content">
+                                <h4>Linux</h4>
+                                <p>Ubuntu, Terminal, Bash</p>
+                            </div>
+                        </div>
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="4"/>
+                                    <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"/>
+                                </svg>
+                            </div>
+                            <div class="skill-badge-content">
+                                <h4>Hibernate</h4>
+                                <p>JPA, Entity Mapping</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3 class="category-title">Desarrollo Multiplataforma</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-icon-box">
-                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <h3 class="category-title">Desarrollo & Testing</h3>
+                    <div class="skill-items-grid">
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
                                     <line x1="12" y1="18" x2="12.01" y2="18"></line>
                                 </svg>
                             </div>
-                            <div class="skill-info">
-                                <h4>Kotlin & Android</h4>
-                                <p>Desarrollo de aplicaciones móviles nativas</p>
-                                <div class="skill-level">
-                                    <div class="level-bar" style="width: 75%"></div>
-                                </div>
+                            <div class="skill-badge-content">
+                                <h4>Kotlin</h4>
+                                <p>Android Development</p>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <div class="skill-icon-box">
-                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <polyline points="16 18 22 12 16 6"></polyline>
                                     <polyline points="8 6 2 12 8 18"></polyline>
                                 </svg>
                             </div>
-                            <div class="skill-info">
-                                <h4>Frontend Web</h4>
-                                <p>HTML5, CSS3, JavaScript, APIs REST</p>
-                                <div class="skill-level">
-                                    <div class="level-bar" style="width: 70%"></div>
-                                </div>
+                            <div class="skill-badge-content">
+                                <h4>JavaScript</h4>
+                                <p>ES6+, Async/Await, DOM</p>
+                            </div>
+                        </div>
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                            </div>
+                            <div class="skill-badge-content">
+                                <h4>Pytest</h4>
+                                <p>Unit Tests, Fixtures, Mocks</p>
+                            </div>
+                        </div>
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </div>
+                            <div class="skill-badge-content">
+                                <h4>Git</h4>
+                                <p>Version Control, GitHub</p>
+                            </div>
+                        </div>
+                        <div class="skill-badge">
+                            <div class="skill-badge-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                                </svg>
+                            </div>
+                            <div class="skill-badge-content">
+                                <h4>REST APIs</h4>
+                                <p>Design, Documentation</p>
                             </div>
                         </div>
                     </div>
@@ -334,8 +408,8 @@
                         <span class="project-tag">Java Backend</span>
                     </div>
                     <p class="project-description">
-                        Backend completo para una plataforma de streaming estilo Netflix/Platzi, desarrollado con Spring Boot. 
-                        Implementa gestión de contenido multimedia, usuarios y categorías mediante arquitectura en capas con 
+                        Backend completo para una plataforma de streaming de contenido multimedia, desarrollado con Spring Boot. 
+                        Implementa gestión de contenido, usuarios y categorías mediante arquitectura en capas con 
                         Spring Data JPA para persistencia en MySQL. Incluye validación robusta con Bean Validation, manejo 
                         centralizado de excepciones, configuración CORS para frontend, y endpoints RESTful para operaciones CRUD 
                         completas siguiendo principios SOLID.

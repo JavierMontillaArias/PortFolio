@@ -78,7 +78,7 @@ const observer = new IntersectionObserver((entries) => {
 // Observar elementos para animación (carga inicial más rápida)
 window.addEventListener('load', () => {
     const animatedElements = document.querySelectorAll(
-        '.about-card, .skill-category, .timeline-item, .project-card, .course-card, .info-item'
+        '.about-card, .skill-category, .timeline-item, .project-card, .course-card, .info-item, .skill-badge'
     );
 
     animatedElements.forEach((el, index) => {
@@ -87,29 +87,6 @@ window.addEventListener('load', () => {
         el.style.transition = `all 0.4s ease ${index * 0.05}s`;
         observer.observe(el);
     });
-});
-
-// Animación de las barras de progreso (optimizado)
-const skillObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            const progressBars = entry.target.querySelectorAll('.level-bar');
-            progressBars.forEach(bar => {
-                const width = bar.style.width;
-                bar.style.width = '0';
-                requestAnimationFrame(() => {
-                    setTimeout(() => {
-                        bar.style.width = width;
-                    }, 50);
-                });
-            });
-            skillObserver.unobserve(entry.target);
-        }
-    });
-}, { threshold: 0.2 });
-
-document.querySelectorAll('.skill-category').forEach(category => {
-    skillObserver.observe(category);
 });
 
 // Smooth scroll mejorado
