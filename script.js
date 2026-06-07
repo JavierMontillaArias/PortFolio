@@ -78,7 +78,7 @@ const observer = new IntersectionObserver((entries) => {
 // Observar elementos para animación (carga inicial más rápida)
 window.addEventListener('load', () => {
     const animatedElements = document.querySelectorAll(
-        '.about-card, .skill-category, .timeline-item, .project-card, .course-card, .info-item, .skill-badge'
+        '.about-card, .skill-category, .timeline-item, .project-card, .course-card, .info-item, .skill-badge, .experience-card'
     );
 
     animatedElements.forEach((el, index) => {
@@ -158,9 +158,8 @@ if (window.innerWidth > 768) {
 
 // Manejo del link de LinkedIn - Ya no es necesario, está configurado directamente en HTML
 
-// Log de bienvenida en consola
-console.log('%c¡Hola! 👋', 'color: #0ecb81; font-size: 20px; font-weight: bold;');
-console.log('%cGracias por revisar mi portfolio', 'color: #848e9c; font-size: 12px;');
+console.log('%cHello!', 'color: #0ecb81; font-size: 20px; font-weight: bold;');
+console.log('%cThanks for checking out my portfolio.', 'color: #848e9c; font-size: 12px;');
 
 // Inicialización final (optimizado)
 document.addEventListener('DOMContentLoaded', () => {
